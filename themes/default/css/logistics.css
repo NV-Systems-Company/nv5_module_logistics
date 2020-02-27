@@ -1,0 +1,484 @@
+
+ 
+.form_add_bill .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+}
+.form_add_bill .select2-container--default .select2-selection--single {
+	border-top-left-radius: 0px !Important;
+    border-bottom-left-radius: 0px !Important;
+}
+
+.bg_tms{background:red; margin:0; padding:10px;}
+
+.breadcrumb-arrow {
+   margin:0;
+    padding: 0;
+    line-height: 30px;
+    list-style: none;
+   
+}
+.breadcrumb-arrow .active a{
+	color:#fff;
+	  background-color: #e4490e;
+    border: 1px solid #e4490e;
+  
+}
+.breadcrumb-arrow .active a:before {
+  
+    border-left-color: #e4490e;
+ 
+}
+.breadcrumb-arrow .active a:after {
+    
+    border-left: 11px solid #e4490e
+}
+
+
+.breadcrumb-arrow li:first-child a {
+	
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+    display: inline-block;
+    vertical-align: top
+}
+
+
+.breadcrumb-arrow li:not(:first-child) {
+	
+    margin-left: -5px
+}
+.breadcrumb-arrow li+li:before {
+    padding: 0;
+    content: ""
+}
+.breadcrumb-arrow li span {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {margin-bottom:5px;
+    height: 36px;
+    padding: 0 10px 0 25px;
+    line-height: 36px
+}
+.breadcrumb-arrow li:first-child a {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee
+}
+.breadcrumb-arrow li a:hover {
+ 
+    color: #fff;
+  
+}
+
+.breadcrumb-arrow li:first-child a {
+    padding-left: 10px
+}
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+    position: absolute;
+    top: -1px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent
+}
+.breadcrumb-arrow li a:before {
+    right: -10px;
+    z-index: 3;
+    border-left-color: #eeeeee;
+    border-left-style: solid;
+    border-left-width: 11px
+}
+.breadcrumb-arrow li a:after {
+    right: -11px;
+    z-index: 2;
+    border-left: 11px solid #e4490e
+}
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+    background-color: #2e982e;
+    border: 1px solid #2e982e
+}
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+    border-left-color: #2e982e
+}
+.breadcrumb-arrow li a:active {
+	color:#fff;
+    background-color: #2e982e;
+    border: 1px solid #2e982e
+}
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
+    border-left-color: #2e982e
+}
+.breadcrumb-arrow li span {
+    color: #434a54
+}
+
+.list_vandon th {
+    padding: 8px 0px !important;
+	text-align:center
+}
+table.archives_list{background:none repeat scroll 0 0 #FFF;border-collapse:collapse;border-right:1px solid #C9D7DE;border-top:1px solid #C9D7DE;empty-cells:show;margin-top:2px;margin-bottom:2px;width:100%}table.archives_list tbody.second{background:none repeat scroll 0 0 #F8F8F8}table.archives_list td{border-bottom:1px solid #fff;border-left:1px solid #fff;padding:2px 5px;color:#fff;font-weight:bold}table.archives_list tfoot{background:none repeat scroll 0 0 #CCC}table.archives_list thead{background:none repeat scroll 0 0 #f60;font-weight:bold}.maincat{background:none repeat scroll 0 0 #F7FBFB}.archives_down{display:inline-block;margin-left:5px;padding:2px 0 2px 20px}.archives_links{background:none repeat scroll 0 0 #E9F2FA;border:1px solid #C9D7DE;margin-bottom:5px;padding:5px}.archives_links a{font-weight:bold}.search_archives{background:none repeat scroll 0 0 #E9F2FA;border:1px solid #C9D7DE;margin-bottom:2px;padding:2px}.bdlaw{border:1px solid;border-color:#C9D7DE;padding:5px;margin-bottom:8px}.chitiet{border:1px solid;border-color:#C9D7DE;margin-bottom:8px}.chitiet h5{padding:5px;margin:0;background:none repeat scroll 0 0 #E9F2FA;font-weight:bold}.chitiet>div{padding:0 5px;line-height:24px;text-align:justify}.chitiet>div td{vertical-align:top}.submenu{display:none}a.hiddenajaxlink{display:none}.applemenu{padding:0;border-top:0;margin-bottom:2px}.applemenu div.silverheader a{background:url(../images/laws/folder-closed.gif) 0 2px no-repeat;display:block;position:relative;width:auto;padding:1px 0 1px 17px;text-decoration:none;border-top:#c9d7de 1px solid;font-weight:bold}.applemenu div.silverheader a:visited,.applemenu div.silverheader a:active,.applemenu div.selected a,.applemenu div.silverheader a:hover{background:url(../images/laws/folder.gif) 0 2px no-repeat}.applemenu div.submenu{background:white;padding:5px}.applemenu div.submenu a{display:block}.applemenu div.submenu a span{padding:6px;display:block;background:#F8F8F8}
+.thongbaosearch.red {
+    color: red;
+}
+
+
+
+.ladingInfo{margin:0 0 26px}
+.ladingInfo table{width:100%;border:1px solid #cfd7e1}
+.ladingInfo td{padding:12px 20px;font-size:13px;color:#686868}
+.ladingInfo td span{color:#282828}
+.ladingInfo tr:nth-child(odd) td{background:#e7ebf0}
+.ladingInfo tr td:first-child + td{border-right:1px solid #cfd7e1}
+.ladingInfo h3{text-align:left;font-weight:700;color:#0d366b;font-size:24px;padding:5px 0 7px}
+.ladingInfo h3 strong{color:#f70}
+
+.ladingDetail{}
+.ladingDetail table{width:100%;border:1px solid #cfd7e1}
+.ladingDetail th{border-right: 1px solid white;text-align:left;font-weight:700;color:#fff;font-size:14px;padding:14px 20px;background:#009ce7}
+.ladingDetail td{font-weight:600;color:#686868;font-size:13px;padding:14px 20px}
+.ladingDetail td + td{color:#282828;border-left:1px solid #cfd7e1}
+.ladingDetail tbody tr:first-child td + td{color:#f70}
+.ladingDetail tbody tr:nth-child(even) td{background:#e7ebf0}
+.ladingDetail th{
+text-transform: uppercase;
+}
+div#news_top {
+    text-transform: uppercase;
+}
+.box-border {
+    margin-bottom: 40px;
+}
+.red {
+    text-align: center;
+    color: red;
+}
+#contentmod .w100 {
+    float: left;
+}
+.w100 {
+    width: 100px;
+}
+/**
+ * @Project NUKEVIET 4.x
+ * @Author Trung NghĂ„Â©a (trungnghiack@gmail.com)
+ * @Copyright (C) 2016 Trung NghĂ„Â©a. All rights reserved
+ * @License: Not free read more http://nukeviet.vn/vi/store/modules/nvtools/
+ * @Createdate Thu, 12 May 2016 08:10:55 GMT
+ */
+ 
+ .list_vandon th {
+    padding: 8px 2px !important;
+}
+span.doi_ngay_nhan {
+    font-family: Roboto;
+    color: white;
+    background-color: #db0d0d;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+.w200_n{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.w200_ngay{
+    float: left;
+    margin-top:3px
+}
+span.doi_ngay_nhan.w200_ngay i {
+    margin-right: 5px;
+}
+.tao_vandon {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    background: #f8f8f8;
+}
+.ma_bill {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.form_search input{
+margin-right:20px;
+}
+.well.form_search {
+    font-size: 12px;
+}
+span.mau_bill {
+    color: red;
+}
+span.mar10 {
+    margin-left: 20px;
+    margin-right: 25px;
+    position: relative;
+    top: -2px;
+}
+.thongtin_bill_lt {
+    margin-bottom: 10px;
+}
+.tab1{
+width:100%;
+}
+.xuat_file_excel.text-right {
+    margin-top: 20px;
+}
+.table-vandon .form-control {
+    display: inline-block;
+}
+span.title_search {
+    width: 100px;
+    display: inline-block;
+}
+img.image_tinme {
+    position: absolute;
+    right: 8px;
+    z-index: 999999;
+    top: -11px;
+}
+.table-vandon input.btn.btn-primary {
+    position: relative;
+    top: -2px;
+    left: 10px;
+}
+.view_vandon_detail .form-group{
+margin-bottom:20px;
+display: -webkit-box;
+}
+
+
+.timeline-list-item ul {
+    margin-bottom: 5px;
+}
+
+    .timeline-list-item ul li {
+		margin-bottom: 0px; 
+        display: block;
+        padding: 6px 5px 6px 16px;
+        font-size: 14px;
+        position: relative;
+    }
+
+        .timeline-list-item ul li:before {
+            content: " ";
+            font-family: "FontAwesome";
+            position: absolute;
+            left: 3px;
+            width: 2px;
+            height: 100%;
+            background: #C7C7C7;
+            z-index: 1;
+        }
+
+        .timeline-list-item ul li:first-child {
+            color: #f90;
+        }
+
+            .timeline-list-item ul li:first-child:before {
+                top: 11px;
+            }
+
+        .timeline-list-item ul li .label-time {
+            display: inline-block;
+            width: 120px;
+            font-weight: 500;
+            position: relative;
+        }
+
+            .timeline-list-item ul li .label-time:before {
+                content: " ";
+                position: absolute;
+                left: -16px;
+                top: 5px;
+                width: 8px;
+                height: 8px;
+                background: #8C8C8C;
+                z-index: 999;
+                border-radius: 50%;
+            }
+
+        .timeline-list-item ul li:first-child .label-time:before {
+            background: #F90;
+        }
+
+        .timeline-list-item ul li .label-location {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted #EFBE53;
+        }
+
+            .timeline-list-item ul li .label-location:after {
+                content: "\f041";
+                font-family: "FontAwesome";
+                position: absolute;
+                font-size: 10px;
+                right: -8px;
+                top: -5px;
+            }
+
+            .timeline-list-item ul li .label-location:hover {
+                color: #F3AE18;
+            }
+
+.timeline-list-item .table-tracking-info {
+    border-bottom: 1px dotted #dcdcdc;
+    padding-bottom: 5px;
+}
+
+    .timeline-list-item .table-tracking-info:last-child {
+        border-bottom: none;
+    }
+
+.timeline-list-money {
+    max-height: 320px;
+    overflow-y: auto;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+}
+.ma_bill_items,.bill_home{
+text-transform:uppercase;
+}
+.emtpy_bill {
+    color: red;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+}
+.list_bill_search .col-sm-16.col-md-16 {
+    margin-bottom: 40px;
+}
+.customer_user {
+    position: absolute;
+    width: 264px;
+    right: 0px;
+    background: #f8f8f8;
+    z-index: 999;
+    top: 32px;
+}
+.customer_user li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+	cursor:pointer;
+}
+.customer_user li:hover {
+    background: #428bca;
+}
+.customer_user li:hover div{
+    color: white;
+}
+.customer_user a {
+    color: red;
+    font-weight: 300;
+}
+.content_search_bill .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 0px;
+}
+.content_search_bill .giacuoc_block {
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 10px;
+}
+.tms25.tms_col.tms_margin_top_50 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ .tms_dongtien {  width:100%;  
+    background:#2fa039;
+    color: #FFF;
+    padding: 15px 0 15px 80px;
+    position: relative;
+	margin-bottom:10px;
+}
+.tms_dongtien span.fa {
+    background: #655d5d;
+}
+
+.tms_dongtien span.fa { width:60px;
+    display: block;
+    height: 100%;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 10px 0 10px;
+}
+.tms_dongtien > div {text-align:left;
+    font: 700 16px 'arial', sans-serif;
+}
+.tms_dongtien  a { color: #FFF;}
+.tms_dongtien > input {text-align:left;
+margin-top:-3px;margin-bottom:-3px;color: #000;
+  height: 25px;
+width:95%;
+}
+
+
+
+ .tms_thongke {  width:100%;  
+    background:#b80002;
+    color: #FFF;
+    padding: 15px 0 15px 80px;
+    position: relative;
+	margin-bottom:10px;
+}
+.tms_thongke span.fa {
+    background: #655d5d;
+}
+
+.tms_thongke span.fa { width:60px;
+    display: block;
+    height: 100%;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 10px 0 10px;
+}
+.tms_thongke > div {text-align:left;
+    font: 700 16px 'arial', sans-serif;
+}
+.tms_thongke  a { color: #FFF;}
+.tms_thongke > input {text-align:left;
+margin-top:-3px;margin-bottom:-3px;color: #000;
+  height: 25px;
+width:95%;
+}
+.file_mau {
+    margin-bottom: 20px;
+}
+.file_mau a {
+    color: red;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.file_mau i {
+    margin-right: 5px;
+}
